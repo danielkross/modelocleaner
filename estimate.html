@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Prueba de CSS Propios</title>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+  </head>
+
+<div class="container">
+      <div class="row">
+          <!-- <div class="col-xs-12 "><a  href="#"><img src="img/logo-general-cleaning.png" class="navbar-btn" id="logo" alt=""></a></div> -->
+      </div>
+
+<header>
+
+
+<nav class="navbar navbar-default  navbar-inverse color-navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  href="#"><img src="img/logo-general-cleaning.png" class="navbar-btn" id="logo" alt=""></a>
+      <!-- <a class="navbar-brand color-navbar-brand" href="#">Curacao</a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Our Cleaning Services <span class="caret"></span></a>
+          <ul class="dropdown-menu colorbackground" role="menu">
+            <li><a href="#">House Cleaning</a></li>
+            <li><a href="#">Apartment Cleaning</a></li>
+            <li><a href="#">Commercials Places</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Hotels and Resorts</a></li>
+            <li class="divider"></li>
+            <!-- <li><a href="#">One more separated link</a></li> -->
+          </ul>
+        </li>
+        <li ><a href="#">Our Company</a></li>
+        <li ><a href="#">Why Hire Us?</a></li>
+        <li class="active"><a href="#">Get A Free Stimate</a></li>
+        <!-- <li ><a href="#">About Us <span class="sr-only">(current)</span></a></li> -->
+        
+        <!-- <li ><a href="#"></a></li> -->
+
+        
+
+      <!-- <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Be Part Of The Team</a></li>
+        <li><a href="#">Faqs</a></li>
+        
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+  <body>
+<!-- suma  -->
+
+<!-- estimate -->
+<div class="container">
+    
+    <div class="row">
+          <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 columna"><h1 class="estimate">Tell Us about your home estimate!</h1></div>
+          <div class="col-xs-12  col-sm-10 col-md-10 col-lg-12 columna"><p>Choose your number of bedrooms:</p>
+            <input type="text" name="qty1"  id="qty"/><br><br>
+
+              <p>Choose your number of bathrooms:</p>
+              <input type="text" name="qty2" id="qty"/><br><br>
+
+           
+                  <p><strong> Add extra tasks to your cleaning (adds extra time) </strong>   </p>
+
+                  <p>Inside the oven : </p>
+                  <input type="text" name="qty3" id="qty"/><br>
+                  <p>Clean Inside the Fridge :</p>
+                  <input type="text" name="qty4" id="qty"/><br>
+                  <br>
+                  <p>High Dusting :</p>
+                  <input type="text" name="qty5" id="qty"/><br>
+                  <br>
+                  <p>Inside the Cabinets :</p>
+                  <input type="text" name="qty6" id="qty"/><br><br>
+                  <input type="text" name="total" id="total"/>
+                  <div class="suma-total">
+                  <a href="javascript:sumInputs()"><span class="sum">Total </span></a>
+             </div>
+            </div>
+         <!--  <div>
+                  <input type="text" name="total" id="total"/><br>
+          </div>
+                <div class="suma-total">
+                      <a href="javascript:sumInputs()"><span class="sum">Total </span></a>
+                </div> -->
+    </div>
+
+
+
+
+<!-- fin estimate -->
+
+
+
+
+
+
+
+
+<script>
+window.sumInputs = function() {
+    var inputs = document.getElementsByTagName('input'),
+        result = document.getElementById('total'),
+        sum = 0;            
+    
+    for(var i=0; i<inputs.length; i++) {
+        var ip = inputs[i];
+    
+        if (ip.name && ip.name.indexOf("total") < 0) {
+            sum += parseInt(ip.value) || 0;
+        }
+    
+    }
+    
+    result.value = sum * 12.5 ;
+}
+
+</script>
+<!-- fin suma -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

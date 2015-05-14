@@ -1,9 +1,19 @@
 .columna {
-	background: #fc0;
+	background: #cce5cc;;
 	border: 1px solid #333;
 	text-align: center;
 	border-radius: 7px;
 	border-bottom: -3px;
+}
+.estimate{
+  font-size: 2px;
+}
+.columna-estimate {
+  background: #cce5cc;
+  /*border: 1px solid #333;*/
+  /*text-align: center;*/
+  border-radius: 7px;
+  border-bottom: -3px;
 }
 
 #logo{
@@ -100,7 +110,7 @@ background: red;
     font-weight: 500;
     color:white;
     padding: 10px 16px;
-  font-size: 2.9em;
+  font-size: 2.3em;
   line-height: 1.3333333;
   border-radius: 6px;
   margin-bottom: 47px;
@@ -116,7 +126,7 @@ background: red;
 .button4{
 background: orange;
 z-index: 1;
-font-size: 1.9em;
+font-size: 1.5em;
 }
 
 /*.button2  {
@@ -305,11 +315,80 @@ font-size: 1.2em;
     margin: 0;
     font-size: 16px;
     font-weight: 400;
- background: green; 
- color: white;
- position:absolute;
+    background: green; 
+    color: white;
+    position:absolute;
 
 }
+comienzo estimate
+.suma{
+  color:#6f6f6f;
+
+}
+
+.sum{
+  font-size: 1em;
+  background: #337ab7;
+  border-color:#2e6da4;  
+  padding: 10px 20px;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+    
+}
+
+.suma-total{
+  margin-top: 12px;
+
+}
+fin estimate sin arreglo
+
+#qty{
+
+  color:#404040;
+  background:#fff;
+  border-top-width: 2px;
+  border-color: #c5c5c5;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px 10px;
+}
+#qty:hover{
+  border-color: #66afe9;
+}
+
+.calculator{
+  border: 1px solid green;
+  display: inline-block;
+  
+}
+.sumabathrooms{
+  border-bottom: 1px solid blue;
+}
+.estimate
+{
+  font-size: 20px;
+}
+h1 .estimate-header
+{
+  font-size: 23px;
+}
+
+.page-wrap{
+    margin-left: 29px; 
+    border-top: 1px solid #00b0ff;
+    border:1px solid black;
+    background:#C2EF95 !important;;
+    width: 95%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -381,6 +460,20 @@ img{
   margin-left: 32px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:767px) {
   #logo{
   width: 30%;
@@ -396,11 +489,29 @@ ul li{
   background: red;
   margin-bottom: 10px;
   font-size: 20px;
-  /*background: rgba(255, 255, 255, 0.8);*/
+  /*background: rgba(255, 255, 255, 0.8);
  /* border-radius: 10px;
 }
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px){
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
@@ -415,6 +526,11 @@ ul li{
   margin-top: -40px;
   margin-left: 15px;
 }
+.suma-total{
 
+}
+.sum{
 
+  margin-top:2px; 
+}
 }
