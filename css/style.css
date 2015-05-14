@@ -7,7 +7,7 @@
 }
 
 #logo{
-  width: 11%;
+  width: 35%;
   margin-right: 5em;
   margin-top: 4px;
 }
@@ -79,16 +79,15 @@ background: red;
     padding-bottom: 14px;
   border-radius: 29px;
 }
-.article-worker{
-margin: 51px -9px 0px -12px;
-  font-size: 19px;
-  background: black;
-  color: white;
-    padding-bottom: 14px;
-  border-radius: 29px;
+/*.article-worker{*/
+/*margin: 51px -9px 0px -12px;*/
+  /*font-size: 19px;*/
+  /*background: black;*/
+  /*color: white;*/
+    /*padding-bottom: 14px;*/
+  /*border-radius: 29px;*/
 
-}
-
+/*}*/
 
 
 /*botones github
@@ -98,17 +97,28 @@ margin: 51px -9px 0px -12px;
     padding: 14px;
     margin: 0;
     background: green;
-    font-size: 18px;
     font-weight: 500;
     color:white;
     padding: 10px 16px;
-  font-size: 23px;
+  font-size: 2.9em;
   line-height: 1.3333333;
   border-radius: 6px;
   margin-bottom: 47px;
   margin-top: 100px;
+  z-index: 1;
 
   }
+.button:hover{
+    background: #002600;
+
+}
+
+.button4{
+background: orange;
+z-index: 1;
+font-size: 1.9em;
+}
+
 /*.button2  {
     padding: 14px;
     margin: 0;
@@ -204,6 +214,31 @@ font-size: 1.2em;
   border-radius: 10px;
 }
 
+.pros{
+  margin-top: -40px;
+  margin-left: 29px;
+}
+
+
+/*formato del cuadro de dialogo*/
+ #dialog h2 {
+    padding: 14px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+/*fin del formato del cauado de dialogo*/
+
+
+
+
+
+
+
+
+
+
+
 
 #FreeArea {
   background-color: #4C5C69;
@@ -253,6 +288,31 @@ font-size: 1.2em;
 .free-img {
   float: right;
 }
+
+
+  #floating-action-button .btn {
+    margin: 20px;
+    border-radius: 50%;
+  }
+  #floating-action-button h2 {
+    padding: 14px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+.sss{
+   padding: 14px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+ background: green; 
+ color: white;
+ position:absolute;
+
+}
+
+
+
 
 
 
@@ -351,7 +411,10 @@ ul li{
   background: #265728;
 
 }
-
+.pros {
+  margin-top: -40px;
+  margin-left: 15px;
+}
 
 
 }
