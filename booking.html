@@ -8,10 +8,16 @@
     <title>Prueba de CSS Propios</title>
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
 
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <!-- <link rel="stylesheet" href="css/docs.css"> -->
+
+
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +36,7 @@
 <header>
 
 
-<nav class="navbar navbar-default  navbar-inverse color-navbar">
+<nav class="navbar navbar-default  navbar-fixed-top navbar-inverse color-navbar">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header ">
@@ -60,8 +66,8 @@
           </ul>
         </li>
         <li ><a href="#">Our Company</a></li>
-        <li ><a href="#">Why Hire Us?</a></li>
-        <li class="active"><a href="#">Get A Free Stimate</a></li>
+        <li ><a href="#why">Why Choose Us?</a></li>
+        <li class="active"><a href="estimate.html">Get A Free Stimate</a></li>
         <!-- <li ><a href="#">About Us <span class="sr-only">(current)</span></a></li> -->
         
         <!-- <li ><a href="#"></a></li> -->
@@ -94,49 +100,39 @@
 </nav>
 </header>
   <body>
-<!-- suma  -->
 
-<!-- estimate -->
 <div class="container">
-    
-    <div class="row">
-          <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 columna"><h1 class="estimate">Tell Us about your home estimate!</h1></div>
-          <div class="col-xs-12  col-sm-10 col-md-10 col-lg-12 columna"><p>Choose your number of bedrooms:</p>
-            <input type="text" name="qty1"  id="qty"/><br><br>
-
-              <p>Choose your number of bathrooms:</p>
-              <input type="text" name="qty2" id="qty"/><br><br>
-
-           
-                  <p><strong> Add extra tasks to your cleaning (adds extra time) </strong>   </p>
-
-                  <p>Inside the oven : </p>
-                  <input type="text" name="qty3" id="qty"/><br>
-                  <p>Clean Inside the Fridge :</p>
-                  <input type="text" name="qty4" id="qty"/><br>
-                  <br>
-                  <p>High Dusting :</p>
-                  <input type="text" name="qty5" id="qty"/><br>
-                  <br>
-                  <p>Inside the Cabinets :</p>
-                  <input type="text" name="qty6" id="qty"/><br><br>
-                  <input type="text" name="total" id="total"/>
-                  <div class="suma-total">
-                  <a href="javascript:sumInputs()"><span class="sum">Total Nafl. </span></a>
-             </div>
-            </div>
-         <!--  <div>
-                  <input type="text" name="total" id="total"/><br>
-          </div>
-                <div class="suma-total">
-                      <a href="javascript:sumInputs()"><span class="sum">Total </span></a>
-                </div> -->
-    </div>
+      <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-12  article">
 
 
-
-
-<!-- fin estimate -->
+        <!-- script de formulario para empleados -->
+        <div class="page-wrap" id="contactus">
+                <div id="wufoo-zniq62z1vq3qpj">
+Fill out my <a href="https://generalcleaning.wufoo.com/forms/zniq62z1vq3qpj">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var zniq62z1vq3qpj;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'generalcleaning',
+'formHash':'zniq62z1vq3qpj',
+'autoResize':true,
+'height':'728',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { zniq62z1vq3qpj = new WufooForm();zniq62z1vq3qpj.initialize(options);zniq62z1vq3qpj.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script></div>
+                </div>
+                </div>
+        <!-- script de formulario para empleados fin -->
+      </div>
+      </div>
 
 
 
@@ -145,26 +141,15 @@
 
 
 
-<script>
-window.sumInputs = function() {
-    var inputs = document.getElementsByTagName('input'),
-        result = document.getElementById('total'),
-        sum = 0;            
-    
-    for(var i=0; i<inputs.length; i++) {
-        var ip = inputs[i];
-    
-        if (ip.name && ip.name.indexOf("total") < 0) {
-            sum += parseInt(ip.value) || 0;
-        }
-    
-    }
-    
-    result.value = sum * 12.5 ;
-}
 
-</script>
-<!-- fin suma -->
+
+
+
+
+
+
+<!-- form -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -172,15 +157,6 @@ window.sumInputs = function() {
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js.js"></script>
-
-
-
-
-
-
-
-
-
 
   </body>
 </html>

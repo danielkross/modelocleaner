@@ -26,9 +26,17 @@ width: 100%;
   margin-top: 20px;
 }
 .jumbotron{
-	background-image: url("../img/hola4.jpg");
+	background-image: url("../img/hola4logo.jpg");
     color: black;
+
 }
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 83px;
+}
+
+
 
 .local{
 	background: black;
@@ -165,12 +173,17 @@ font-size: 1.5em;
 color:white;
 
 }
+.affix + .container {
+    padding-top:120px
+}
 
-
+.chooseus{
+  background-color: #66b266;
+}
 
 .color-navbar{
   background-color: #4CAF50;
-  border-color: #4CAF50;
+  border-color: #4CAF50;  
   /*padding-left: 2em;*/
 }
 .color-navbar:hover li{
@@ -222,6 +235,9 @@ font-size: 1.2em;
   background: black;
   opacity: 0.7;
   border-radius: 10px;
+  margin-left: -42px;
+  margin-right: -43px;
+
 }
 
 .pros{
@@ -238,6 +254,98 @@ font-size: 1.2em;
     font-weight: 400;
   }
 /*fin del formato del cauado de dialogo*/
+
+
+
+/*why choose us*/
+
+.marketing {
+  text-align: center;
+  color: #5a5a5a;
+  background-color: rgb(236, 245, 236);
+}
+.marketing h1 {
+  margin: 60px 0 10px;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.marketing h2 {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.marketing p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.marketing .marketing-byline {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+}
+.marketing img {
+  display: block;
+  margin: 0 auto 30px;
+}
+/*why choose us*/
+
+/*123*/
+.marketing2 {
+  text-align: center;
+  color: #fff;
+  background-color: #81BB47;
+  padding-bottom: 43px;
+  padding-top: 2px;
+  border-radius: 3px;
+  box-shadow: 5px;
+  margin-top: 78px;
+
+}
+.marketing h1 {
+  margin: 60px 0 10px;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.marketing h2 {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.marketing2 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.marketing .marketing-byline {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+}
+.marketing img {
+  display: block;
+  margin: 0 auto 30px;
+}
+/*123*/
+h2 .firstword {
+  border-bottom: 2px solid #b1ebb5;
+}
+h2 .firstword2{
+  border-bottom: 2px solid #b1ebb5;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -533,4 +641,11 @@ ul li{
 
   margin-top:2px; 
 }
+.free-img{
+  width: 300px;
+  margin-right: -10px;
+}
+
+
+
 }
