@@ -8,6 +8,9 @@
 .estimate{
   font-size: 2px;
 }
+.col-lg-12{
+margin-top: 88px;
+}
 .columna-estimate {
   background: #cce5cc;
   /*border: 1px solid #333;*/
@@ -26,8 +29,8 @@ width: 100%;
   margin-top: 20px;
 }
 .jumbotron{
-  background-image: url("../img/hola4logo.jpg");
-    color: black;
+  background-image: url("../img/hola4logo2.jpg");
+  color: black;
 
 }
 .container .jumbotron, .container-fluid .jumbotron {
@@ -39,7 +42,7 @@ width: 100%;
 
 
 .local{
-  background: black;
+  /*background: black;*/
   /*opacity: 0.7;*/
   color:white;
   font-size: 36px;
@@ -250,8 +253,8 @@ font-size: 1.2em;
 
   .text-center {
   text-align: center;
-  background: black;
-  opacity: 0.7;
+  /*background: black;*/
+  /*opacity: 0.7;*/
   border-radius: 10px;
   margin-left: -42px;
   margin-right: -43px;
@@ -555,6 +558,11 @@ h4{
 
 }
 
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-left: 43px;
+}
+
+
 /*p {
   margin: 0px 49px 10px;
   margin: 2px 23px;
@@ -568,13 +576,11 @@ h4{
 .suma-total{
 
 }
-.sum{
 
-  margin-top:2px; 
-}
-.free-img{
+
+.free-img {
   width: 300px;
-  margin-right: -10px;
+  margin-right: -16px;
 }
 
 .finding {
@@ -590,7 +596,7 @@ h4{
   background: orange;
   z-index: 1;
   font-size: 18px;
-  margin: 0px 66px;
+  margin: 0px 47px;
 }
 .marketing .marketing-byline {
   margin-bottom: 40px;
@@ -623,7 +629,7 @@ h4{
 .marketing2 {
   margin-top: -29px;
   margin-left: 9px;
-  margin-right: -15px;
+  margin-right: -30px;
 }
 
 .marketing2 h1{
